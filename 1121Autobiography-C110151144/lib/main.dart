@@ -153,7 +153,7 @@ class screen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(child: Text('程式語言：C、C++、JAVA、PYTHON、HTML、CSS、JS、PHP'),
+      child: Container(child: Text('程式語言：C、C++、JAVA、PYTHON、HTML、CSS、JS、PHP\n機器學習：類神經網路 深度學習 隨機森林樹\n通過多益畢業門檻\n畢業專題題目：基於深度學習及邊緣運算的AOI鏡片瑕疵檢測',style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))
       ),
     );
   }
@@ -267,7 +267,7 @@ class screen4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(child: Text('前後端網頁程式設計、機器學習'),
+      child: Container(child: Text('前後端網頁程式設計、機器學習\nAOI自動光學檢測\n邊緣運算\n影像辨識',style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
       ),
     );
   }
